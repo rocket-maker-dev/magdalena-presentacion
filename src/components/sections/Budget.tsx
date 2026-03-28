@@ -81,7 +81,7 @@ const budgetItems = [
 export function BudgetSection() {
   return (
     <section id="orzamento" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -112,7 +112,7 @@ export function BudgetSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="rounded-2xl p-4 bg-white/80 border border-neutral-200/50 hover:border-neutral-300/50 transition-all duration-300"
+              className="rounded-2xl p-4 bg-white/80 border border-white/10 hover:border-white/15 transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-2">
                 <div className="flex items-center gap-3">
@@ -184,7 +184,7 @@ export function BudgetSection() {
             </div>
           </div>
           {/* Company breakdown */}
-          <div className="mt-4 pt-3 border-t border-neutral-200/50 grid grid-cols-2 gap-3">
+          <div className="mt-4 pt-3 border-t border-white/10 grid grid-cols-2 gap-3">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-[#00AC81]" />
               <div>
@@ -200,7 +200,7 @@ export function BudgetSection() {
               </div>
             </div>
           </div>
-          <div className="mt-3 pt-3 border-t border-neutral-200/50 flex items-center justify-between">
+          <div className="mt-3 pt-3 border-t border-white/10 flex items-center justify-between">
             <span className="text-[10px] text-neutral-300">
               Material doado adicional
             </span>

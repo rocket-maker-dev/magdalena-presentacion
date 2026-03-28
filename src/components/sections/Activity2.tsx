@@ -60,7 +60,7 @@ const events = [
 export function Activity2Section() {
   return (
     <section id="cociñar" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -78,7 +78,7 @@ export function Activity2Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#F04923]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-ev-light rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-ev rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#00AC81]" />
               <span className="text-[9px] text-[#00AC81]">espacio vivo</span>
             </div>
@@ -95,10 +95,10 @@ export function Activity2Section() {
             do mercado como protagonista absoluto.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Maio - Setembro 2026
             </span>
-            <span className="glass-ev-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
+            <span className="glass-ev rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
               2.900,00 &euro;
             </span>
           </div>
@@ -113,7 +113,7 @@ export function Activity2Section() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="group relative rounded-2xl overflow-hidden border border-neutral-200/50 hover:border-neutral-300/50 transition-all duration-300"
+              className="group relative rounded-2xl overflow-hidden border border-white/10 hover:border-white/15 transition-all duration-300"
             >
               {/* Image background */}
               <div className="absolute inset-0">

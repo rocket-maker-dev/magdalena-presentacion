@@ -42,7 +42,7 @@ export function ChallengeSection() {
   return (
     <section id="reto" className="section-padding relative overflow-hidden">
       {/* Nebula gradient background */}
-      <div className="absolute inset-0 bg-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Section header */}
@@ -79,7 +79,7 @@ export function ChallengeSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.15, duration: 0.5 }}
-              className={`relative rounded-2xl p-5 bg-gradient-to-r ${challenge.color} border border-neutral-200/50 backdrop-blur-sm`}
+              className={`relative rounded-2xl p-5 bg-gradient-to-r ${challenge.color} border border-white/10 backdrop-blur-sm`}
             >
               <div className="flex items-start gap-4">
                 <div className={`mt-0.5 ${challenge.iconColor}`}>
@@ -106,7 +106,7 @@ export function ChallengeSection() {
           transition={{ delay: 0.6, duration: 0.5 }}
           className="mt-10 text-center"
         >
-          <div className="glass-light rounded-2xl p-6">
+          <div className="glass rounded-2xl p-6">
             <div className="text-sm text-neutral-300 leading-relaxed">
               A maior asociación de vendedores da cidade merece unha resposta á
               altura

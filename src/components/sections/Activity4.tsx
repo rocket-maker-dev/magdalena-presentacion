@@ -59,7 +59,7 @@ const months = [
 export function Activity4Section() {
   return (
     <section id="rrss" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -77,7 +77,7 @@ export function Activity4Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#F761A1]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-rocket-light rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-rocket rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#F761A1]" />
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
@@ -93,10 +93,10 @@ export function Activity4Section() {
             pechan en agosto nin en xaneiro, e a súa comunicación tampouco.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Abril 2026 - Marzo 2027
             </span>
-            <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
+            <span className="glass-rocket rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
               2.900,00 &euro; <span className="text-neutral-300">(IVA incl.)</span>
             </span>
           </div>
@@ -149,7 +149,7 @@ export function Activity4Section() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.08, duration: 0.4 }}
-              className="rounded-xl p-4 bg-white/80 border border-neutral-200/50 hover:border-[#F761A1]/15 transition-all duration-300"
+              className="rounded-xl p-4 bg-white/80 border border-white/10 hover:border-[#F761A1]/15 transition-all duration-300"
             >
               <item.icon className={`w-5 h-5 ${item.color} mb-2`} />
               <div className="text-xs font-semibold text-white">{item.label}</div>
@@ -166,11 +166,11 @@ export function Activity4Section() {
           transition={{ delay: 0.5 }}
           className="mt-8 flex items-center justify-center gap-4"
         >
-          <div className="flex items-center gap-2 glass-rocket-light rounded-full px-4 py-2">
+          <div className="flex items-center gap-2 glass-rocket rounded-full px-4 py-2">
             <Hash className="w-4 h-4 text-[#8C1BAB]" />
             <span className="text-xs text-neutral-400">Facebook</span>
           </div>
-          <div className="flex items-center gap-2 glass-rocket-light rounded-full px-4 py-2">
+          <div className="flex items-center gap-2 glass-rocket rounded-full px-4 py-2">
             <AtSign className="w-4 h-4 text-[#F761A1]" />
             <span className="text-xs text-neutral-400">Instagram</span>
           </div>

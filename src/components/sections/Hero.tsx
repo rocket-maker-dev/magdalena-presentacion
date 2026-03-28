@@ -122,12 +122,12 @@ export function HeroSection() {
               <div className="flex items-center justify-center gap-1 text-2xl font-bold text-white">
                 12
               </div>
-              <div className="text-xs text-neutral-500 mt-1">Meses</div>
+              <div className="text-xs text-neutral-300 mt-1">Meses</div>
             </div>
             <div className="w-px h-10 bg-white/10" />
             <div className="text-center">
               <div className="text-2xl font-bold text-white">5</div>
-              <div className="text-xs text-neutral-500 mt-1">Actividades</div>
+              <div className="text-xs text-neutral-300 mt-1">Actividades</div>
             </div>
           </motion.div>
 
@@ -155,7 +155,7 @@ export function HeroSection() {
           >
             <a
               href="#reto"
-              className="flex flex-col items-center gap-2 text-neutral-500 hover:text-[#00AC81] transition-colors"
+              className="flex flex-col items-center gap-2 text-neutral-300 hover:text-[#00AC81] transition-colors"
             >
               <span className="text-[10px] uppercase tracking-widest">
                 Descubrir

@@ -65,7 +65,7 @@ const modules = [
 export function Activity1Section() {
   return (
     <section id="formacion" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -83,7 +83,7 @@ export function Activity1Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#00AC81]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-ev-light rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-ev rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#00AC81]" />
               <span className="text-[9px] text-[#00AC81]">espacio vivo</span>
             </div>
@@ -99,10 +99,10 @@ export function Activity1Section() {
             con exemplos reais e resultado visible desde a primeira sesión.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Abril - Setembro 2026
             </span>
-            <span className="glass-ev-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
+            <span className="glass-ev rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
               2.900,00 &euro;
             </span>
           </div>

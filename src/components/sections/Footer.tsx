@@ -57,10 +57,10 @@ export function FooterSection() {
           <h2 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-white mb-2">
             A Magdalena Conecta
           </h2>
-          <p className="text-xs text-neutral-500">
+          <p className="text-xs text-neutral-300">
             Asociación de Vendedores de A Magdalena
           </p>
-          <p className="text-[10px] text-neutral-600 mt-1">
+          <p className="text-[10px] text-neutral-400 mt-1">
             Liña 3: Mercados Municipais — Concello de Ferrol 2026
           </p>
         </motion.div>
@@ -95,11 +95,11 @@ export function FooterSection() {
           transition={{ delay: 0.4 }}
           className="text-center mb-8"
         >
-          <p className="text-[10px] text-neutral-600 uppercase tracking-widest mb-3">
+          <p className="text-[10px] text-neutral-400 uppercase tracking-widest mb-3">
             Con apoio de
           </p>
           <div className="flex items-center justify-center gap-6 flex-wrap">
-            <div className="flex items-center gap-1.5 text-[10px] text-neutral-500">
+            <div className="flex items-center gap-1.5 text-[10px] text-neutral-300">
               <ExternalLink className="w-3 h-3" />
               Concello de Ferrol
             </div>

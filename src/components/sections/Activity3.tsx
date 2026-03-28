@@ -44,7 +44,7 @@ const components = [
 export function Activity3Section() {
   return (
     <section id="marca" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -62,7 +62,7 @@ export function Activity3Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#F761A1]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-rocket-light rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-rocket rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#F761A1]" />
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
@@ -79,10 +79,10 @@ export function Activity3Section() {
             perdurable.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Abril - Xuño 2026
             </span>
-            <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
+            <span className="glass-rocket rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
               2.900,00 &euro; <span className="text-neutral-300">(IVA incl.)</span>
             </span>
           </div>
@@ -97,7 +97,7 @@ export function Activity3Section() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.15, duration: 0.5 }}
-              className={`rounded-2xl p-5 bg-gradient-to-br ${comp.gradient} border border-neutral-200/50 hover:border-neutral-300/50 transition-all duration-300`}
+              className={`rounded-2xl p-5 bg-gradient-to-br ${comp.gradient} border border-white/10 hover:border-white/15 transition-all duration-300`}
             >
               <div className="flex items-center gap-3 mb-3">
                 <comp.icon className={`w-5 h-5 ${comp.color}`} />

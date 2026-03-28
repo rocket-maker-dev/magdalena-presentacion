@@ -24,7 +24,7 @@ export function Activity5Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#F761A1]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-rocket-light rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-rocket rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#F761A1]" />
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
@@ -39,10 +39,10 @@ export function Activity5Section() {
             sustentabilidade económica da asociación.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Xuño 2026 + continua
             </span>
-            <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
+            <span className="glass-rocket rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
               Custo: 0,00 &euro;
             </span>
           </div>
@@ -109,7 +109,7 @@ export function Activity5Section() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="flex items-start gap-4 p-4 rounded-xl bg-white/80 border border-neutral-200/50"
+              className="flex items-start gap-4 p-4 rounded-xl bg-white/80 border border-white/10"
             >
               <item.icon className={`w-5 h-5 ${item.color} mt-0.5 shrink-0`} />
               <div>
@@ -128,7 +128,7 @@ export function Activity5Section() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
-          className="mt-8 rounded-2xl overflow-hidden border border-neutral-200/50"
+          className="mt-8 rounded-2xl overflow-hidden border border-white/10"
         >
           <img
             src="/ref-recimil-apron.png"
