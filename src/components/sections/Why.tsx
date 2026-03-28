@@ -155,26 +155,6 @@ export function WhySection() {
         </motion.div>
 
         {/* Final CTA */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4 }}
-          className="rounded-2xl p-6 bg-gradient-to-br from-[#E8B800]/10 via-[#F04923]/5 to-transparent border border-[#E8B800]/20 text-center"
-        >
-          <Award className="w-8 h-8 text-[#E8B800] mx-auto mb-3" />
-          <h3 className="text-lg font-bold text-white mb-2">
-            Valoración global estimada
-          </h3>
-          <div className="text-2xl font-bold bg-gradient-to-r from-[#E8B800] to-[#F04923] bg-clip-text text-transparent mb-3">
-            Moi Alta
-          </div>
-          <p className="text-xs text-neutral-400 leading-relaxed max-w-sm mx-auto">
-            O proxecto cubre a práctica totalidade dos criterios de valoración
-            das bases, con especial fortaleza na combinación única de tres eixos
-            estratéxicos.
-          </p>
-        </motion.div>
       </div>
     </section>
   );
