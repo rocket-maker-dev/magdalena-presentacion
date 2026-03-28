@@ -123,7 +123,7 @@ export function FooterSection() {
             Período de execución: Abril 2026 — Marzo 2027
           </p>
           <p className="text-[10px] text-neutral-700 mt-1">
-            Orzamento total: 13.345,00 &euro;
+            Orzamento total: 11.600,00 &euro;
           </p>
         </div>
       </div>
