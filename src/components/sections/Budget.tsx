@@ -112,7 +112,7 @@ export function BudgetSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="rounded-2xl p-4 bg-white/80 border border-white/10 hover:border-white/15 transition-all duration-300"
+              className="rounded-2xl p-4 bg-white/5 border border-white/10 hover:border-white/15 transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-2">
                 <div className="flex items-center gap-3">

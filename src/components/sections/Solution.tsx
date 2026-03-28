@@ -25,7 +25,7 @@ const activities = [
           alt="Formación dixital"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#00AC81] uppercase tracking-wider">
           Actividade 1
         </span>
@@ -47,7 +47,7 @@ const activities = [
           alt="Showcooking"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#00AC81] uppercase tracking-wider">
           Actividade 2
         </span>
@@ -69,7 +69,7 @@ const activities = [
           alt="Mercado"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#F761A1] uppercase tracking-wider">
           Actividade 3
         </span>
@@ -91,7 +91,7 @@ const activities = [
           alt="Redes sociais"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#8C1BAB] uppercase tracking-wider">
           Actividade 4
         </span>
@@ -113,7 +113,7 @@ const activities = [
           alt="Bolsa da Magdalena"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/60" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#F761A1] uppercase tracking-wider">
           Actividade 5
         </span>

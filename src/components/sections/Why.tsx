@@ -125,7 +125,7 @@ export function WhySection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.06, duration: 0.4 }}
-              className="rounded-xl p-4 bg-white/80 border border-white/10 hover:border-white/15 transition-all duration-300"
+              className="rounded-xl p-4 bg-white/5 border border-white/10 hover:border-white/15 transition-all duration-300"
             >
               <item.icon className={`w-5 h-5 ${item.color} mb-2`} />
               <div className="text-xs font-semibold text-white mb-0.5">

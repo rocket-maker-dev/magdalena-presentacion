@@ -109,7 +109,7 @@ export function Activity5Section() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="flex items-start gap-4 p-4 rounded-xl bg-white/80 border border-white/10"
+              className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10"
             >
               <item.icon className={`w-5 h-5 ${item.color} mt-0.5 shrink-0`} />
               <div>
@@ -135,7 +135,7 @@ export function Activity5Section() {
             alt="Referencia merchandising"
             className="w-full h-40 object-cover opacity-60"
           />
-          <div className="p-4 bg-white/80">
+          <div className="p-4 bg-black/40">
             <p className="text-[10px] text-neutral-300 text-center">
               Referencia de merchandising: bolsas térmicas personalizadas, útiles, duradeiras e ecolóxicas
             </p>
