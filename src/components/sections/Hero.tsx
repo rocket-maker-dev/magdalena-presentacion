@@ -138,17 +138,11 @@ export function HeroSection() {
             transition={{ delay: 1.1, duration: 0.6 }}
             className="flex items-center gap-4"
           >
-            <div className="glass-ev rounded-xl px-4 py-2 flex items-center gap-2">
-              <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#00AC81] to-[#7B5EA7] flex items-center justify-center">
-                <span className="text-[9px] font-bold text-white">e</span>
-              </div>
-              <span className="text-xs text-neutral-300">espacio vivo</span>
+            <div className="glass rounded-xl px-4 py-2 flex items-center gap-2">
+              <img src="/logo-ev-blanco.png" alt="espacio vivo" className="h-6 w-auto" />
             </div>
-            <div className="glass-rocket rounded-xl px-4 py-2 flex items-center gap-2">
-              <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#8C1BAB] to-[#F761A1] flex items-center justify-center">
-                <span className="text-[9px] font-bold text-white">R</span>
-              </div>
-              <span className="text-xs text-neutral-300">Rocket</span>
+            <div className="glass rounded-xl px-4 py-2 flex items-center gap-2">
+              <img src="/rocket-logo-white.svg" alt="Rocket" className="h-6 w-auto" />
             </div>
           </motion.div>
 

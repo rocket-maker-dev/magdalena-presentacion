@@ -97,7 +97,7 @@ export function Activity4Section() {
               Abril 2026 - Marzo 2027
             </span>
             <span className="glass-rocket rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
-              4.145,00 &euro; <span className="text-neutral-500">(IVA incl.)</span>
+              2.900,00 &euro; <span className="text-neutral-500">(IVA incl.)</span>
             </span>
           </div>
         </motion.div>

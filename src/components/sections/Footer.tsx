@@ -31,17 +31,19 @@ export function FooterSection() {
           transition={{ duration: 0.6 }}
           className="flex items-center justify-center gap-6 mb-10"
         >
-          {/* espacio vivo — green/purple gradient */}
-          <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-[#00AC81] to-[#7B5EA7] flex flex-col items-center justify-center border border-white/10">
-            <span className="text-lg font-bold text-white leading-none">e</span>
-            <span className="text-[7px] text-white/70 mt-0.5">espacio vivo</span>
-          </div>
+          {/* espacio vivo */}
+          <img
+            src="/logo-ev-blanco.png"
+            alt="espacio vivo"
+            className="h-14 w-auto object-contain"
+          />
           <div className="w-px h-12 bg-white/10" />
-          {/* Rocket — purple/pink gradient */}
-          <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-[#8C1BAB] to-[#F761A1] flex flex-col items-center justify-center border border-white/10">
-            <span className="text-lg font-bold text-white leading-none">R</span>
-            <span className="text-[7px] text-white/70 mt-0.5">Rocket</span>
-          </div>
+          {/* Rocket */}
+          <img
+            src="/rocket-logo-white.svg"
+            alt="Rocket"
+            className="h-14 w-auto object-contain"
+          />
         </motion.div>
 
         {/* Project title */}

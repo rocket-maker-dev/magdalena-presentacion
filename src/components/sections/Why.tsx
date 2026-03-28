@@ -15,10 +15,6 @@ import {
 
 const testimonials = [
   {
-    quote: "Cubre a totalidade dos criterios de valoración: identidade, comunicación, formación, dinamización e sustentabilidade.",
-    name: "Puntuación estimada",
-    title: "Moi Alta",
-  },
   {
     quote: "35 vendedores — a maior asociación da cidade. Máis diversidade de produtos, máis retorno social por cada euro investido.",
     name: "Escala real",

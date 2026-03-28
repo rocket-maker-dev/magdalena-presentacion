@@ -99,7 +99,7 @@ export function Activity2Section() {
               Maio - Setembro 2026
             </span>
             <span className="glass-ev rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
-              3.300,00 &euro;
+              2.900,00 &euro;
             </span>
           </div>
         </motion.div>
