@@ -15,8 +15,7 @@ import {
 
 const testimonials = [
   {
-  {
-    quote: "35 vendedores — a maior asociación da cidade. Máis diversidade de produtos, máis retorno social por cada euro investido.",
+    quote: "A maior asociación de vendedores de Ferrol — a maior asociación da cidade. Máis diversidade de produtos, máis retorno social por cada euro investido.",
     name: "Escala real",
     title: "Máximo impacto",
   },

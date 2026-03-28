@@ -40,7 +40,7 @@ export function FooterSection() {
           <div className="w-px h-12 bg-white/10" />
           {/* Rocket */}
           <img
-            src="/rocket-logo-white.svg"
+            src="/rocket-real-logo.svg"
             alt="Rocket"
             className="h-14 w-auto object-contain"
           />

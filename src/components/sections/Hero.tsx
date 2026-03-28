@@ -142,7 +142,7 @@ export function HeroSection() {
               <img src="/logo-ev-blanco.png" alt="espacio vivo" className="h-6 w-auto" />
             </div>
             <div className="glass rounded-xl px-4 py-2 flex items-center gap-2">
-              <img src="/rocket-logo-white.svg" alt="Rocket" className="h-6 w-auto" />
+              <img src="/rocket-real-logo.svg" alt="Rocket" className="h-6 w-auto" />
             </div>
           </motion.div>
 
