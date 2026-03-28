@@ -67,23 +67,23 @@ export function Activity3Section() {
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
             Campaña{" "}
             <span className="bg-gradient-to-r from-[#8C1BAB] to-[#F761A1] bg-clip-text text-transparent">
               &ldquo;O Mellor do Mercado&rdquo;
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-400 leading-relaxed">
             O eixe de desenvolvemento dixital do proxecto. Tres compoñentes
             inseparables que dotan á asociación dunha presenza profesional e
             perdurable.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Abril - Xuño 2026
             </span>
             <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
-              2.900,00 &euro; <span className="text-neutral-500">(IVA incl.)</span>
+              2.900,00 &euro; <span className="text-neutral-300">(IVA incl.)</span>
             </span>
           </div>
         </motion.div>
@@ -101,18 +101,18 @@ export function Activity3Section() {
             >
               <div className="flex items-center gap-3 mb-3">
                 <comp.icon className={`w-5 h-5 ${comp.color}`} />
-                <h3 className="font-semibold text-[#2a2a3a] text-sm">
+                <h3 className="font-semibold text-white text-sm">
                   {comp.title}
                 </h3>
               </div>
-              <p className="text-xs text-neutral-600 leading-relaxed mb-3">
+              <p className="text-xs text-neutral-400 leading-relaxed mb-3">
                 {comp.description}
               </p>
               <div className="flex flex-wrap gap-2">
                 {comp.deliverables.map((d, i) => (
                   <span
                     key={i}
-                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/5 text-[10px] text-neutral-500"
+                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/5 text-[10px] text-neutral-300"
                   >
                     <Sparkles className="w-2.5 h-2.5 text-[#F761A1]/50" />
                     {d}
@@ -139,7 +139,7 @@ export function Activity3Section() {
               <h4 className="text-xs font-semibold text-[#E8B800] uppercase tracking-wider mb-2">
                 Importancia estratéxica
               </h4>
-              <p className="text-xs text-neutral-600 leading-relaxed">
+              <p className="text-xs text-neutral-400 leading-relaxed">
                 Esta actividade condiciona e posibilita a Actividade 5. Ao
                 contratar os servizos, os provedores obsequian material
                 promocional por valor de{" "}
@@ -159,7 +159,7 @@ export function Activity3Section() {
           transition={{ delay: 0.6 }}
           className="mt-8"
         >
-          <h4 className="text-xs font-semibold text-neutral-500 uppercase tracking-wider mb-4">
+          <h4 className="text-xs font-semibold text-neutral-300 uppercase tracking-wider mb-4">
             Fases de desenvolvemento
           </h4>
           <div className="flex items-center gap-2">
@@ -174,7 +174,7 @@ export function Activity3Section() {
                 <div className="text-[10px] font-semibold text-[#F761A1]">
                   {phase.month}
                 </div>
-                <div className="text-[9px] text-neutral-500">{phase.task}</div>
+                <div className="text-[9px] text-neutral-300">{phase.task}</div>
               </div>
             ))}
           </div>

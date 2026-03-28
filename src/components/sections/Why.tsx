@@ -57,7 +57,7 @@ const differentials = [
   },
   {
     icon: Users,
-    title: "35 placeros",
+    title: "placeros da asociación",
     description: "Maior escala = maior retorno social por euro investido",
     color: "text-[#7B5EA7]",
   },
@@ -104,13 +104,13 @@ export function WhySection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-[#E8B800] border border-[#E8B800]/20 bg-[#E8B800]/5 mb-4">
             Valor Diferencial
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
             Por que{" "}
             <span className="bg-gradient-to-r from-[#E8B800] to-[#F04923] bg-clip-text text-transparent">
               este proxecto
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-400 leading-relaxed">
             Un trinomio que poucas propostas presentarán: identidade dixital +
             comunicación sostida + modelo de autofinanciación.
           </p>
@@ -128,10 +128,10 @@ export function WhySection() {
               className="rounded-xl p-4 bg-white/80 border border-neutral-200/50 hover:border-neutral-300/50 transition-all duration-300"
             >
               <item.icon className={`w-5 h-5 ${item.color} mb-2`} />
-              <div className="text-xs font-semibold text-[#2a2a3a] mb-0.5">
+              <div className="text-xs font-semibold text-white mb-0.5">
                 {item.title}
               </div>
-              <div className="text-[10px] text-neutral-500 leading-relaxed">
+              <div className="text-[10px] text-neutral-300 leading-relaxed">
                 {item.description}
               </div>
             </motion.div>
@@ -163,13 +163,13 @@ export function WhySection() {
           className="rounded-2xl p-6 bg-gradient-to-br from-[#E8B800]/10 via-[#F04923]/5 to-transparent border border-[#E8B800]/20 text-center"
         >
           <Award className="w-8 h-8 text-[#E8B800] mx-auto mb-3" />
-          <h3 className="text-lg font-bold text-[#2a2a3a] mb-2">
+          <h3 className="text-lg font-bold text-white mb-2">
             Valoración global estimada
           </h3>
           <div className="text-2xl font-bold bg-gradient-to-r from-[#E8B800] to-[#F04923] bg-clip-text text-transparent mb-3">
             Moi Alta
           </div>
-          <p className="text-xs text-neutral-600 leading-relaxed max-w-sm mx-auto">
+          <p className="text-xs text-neutral-400 leading-relaxed max-w-sm mx-auto">
             O proxecto cubre a práctica totalidade dos criterios de valoración
             das bases, con especial fortaleza na combinación única de tres eixos
             estratéxicos.

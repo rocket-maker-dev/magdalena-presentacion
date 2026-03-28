@@ -82,22 +82,22 @@ export function Activity4Section() {
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
             RRSS + Blog{" "}
             <span className="bg-gradient-to-r from-[#8C1BAB] to-[#F761A1] bg-clip-text text-transparent">
               12 meses
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-400 leading-relaxed">
             Presenza dixital sostida ao longo de todo o ano. Os mercados non
             pechan en agosto nin en xaneiro, e a súa comunicación tampouco.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Abril 2026 - Marzo 2027
             </span>
             <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
-              2.900,00 &euro; <span className="text-neutral-500">(IVA incl.)</span>
+              2.900,00 &euro; <span className="text-neutral-300">(IVA incl.)</span>
             </span>
           </div>
         </motion.div>
@@ -127,7 +127,7 @@ export function Activity4Section() {
                     border: "1px solid rgba(247, 97, 161, 0.1)",
                   }}
                 />
-                <div className="text-[8px] text-neutral-500 text-center mt-1.5">
+                <div className="text-[8px] text-neutral-300 text-center mt-1.5">
                   {m}
                 </div>
               </motion.div>
@@ -152,8 +152,8 @@ export function Activity4Section() {
               className="rounded-xl p-4 bg-white/80 border border-neutral-200/50 hover:border-[#F761A1]/15 transition-all duration-300"
             >
               <item.icon className={`w-5 h-5 ${item.color} mb-2`} />
-              <div className="text-xs font-semibold text-[#2a2a3a]">{item.label}</div>
-              <div className="text-[10px] text-neutral-500">{item.sublabel}</div>
+              <div className="text-xs font-semibold text-white">{item.label}</div>
+              <div className="text-[10px] text-neutral-300">{item.sublabel}</div>
             </motion.div>
           ))}
         </div>
@@ -168,11 +168,11 @@ export function Activity4Section() {
         >
           <div className="flex items-center gap-2 glass-rocket-light rounded-full px-4 py-2">
             <Hash className="w-4 h-4 text-[#8C1BAB]" />
-            <span className="text-xs text-neutral-600">Facebook</span>
+            <span className="text-xs text-neutral-400">Facebook</span>
           </div>
           <div className="flex items-center gap-2 glass-rocket-light rounded-full px-4 py-2">
             <AtSign className="w-4 h-4 text-[#F761A1]" />
-            <span className="text-xs text-neutral-600">Instagram</span>
+            <span className="text-xs text-neutral-400">Instagram</span>
           </div>
         </motion.div>
 
@@ -184,7 +184,7 @@ export function Activity4Section() {
           transition={{ delay: 0.6 }}
           className="mt-6 rounded-2xl p-4 border border-[#8C1BAB]/15 bg-[#8C1BAB]/5"
         >
-          <p className="text-xs text-neutral-600 leading-relaxed text-center">
+          <p className="text-xs text-neutral-400 leading-relaxed text-center">
             <span className="text-[#F761A1] font-semibold">Modelo colaborativo:</span>{" "}
             Os placeros envían fotos e vídeos seguindo pautas sinxelas da
             formación. Periodicamente, gravacións profesionais no mercado

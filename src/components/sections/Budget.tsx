@@ -14,7 +14,7 @@ const budgetItems = [
     num: 1,
     icon: GraduationCap,
     name: 'Formación "Mercado Dixital"',
-    detail: "5 módulos para 35 placeros",
+    detail: "5 módulos para os placeros da asociación",
     amount: "2.900,00",
     iva: "Exento",
     color: "text-[#00AC81]",
@@ -95,7 +95,7 @@ export function BudgetSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-[#7B5EA7] border border-[#7B5EA7]/20 bg-[#7B5EA7]/5 mb-4">
             Orzamento
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
             Resumo{" "}
             <span className="bg-gradient-to-r from-[#00AC81] via-[#7B5EA7] to-[#F761A1] bg-clip-text text-transparent">
               económico
@@ -120,10 +120,10 @@ export function BudgetSection() {
                     <item.icon className={`w-4 h-4 ${item.color}`} />
                   </div>
                   <div>
-                    <div className="text-xs font-semibold text-[#2a2a3a]">
+                    <div className="text-xs font-semibold text-white">
                       {item.name}
                     </div>
-                    <div className="text-[10px] text-neutral-500">
+                    <div className="text-[10px] text-neutral-300">
                       {item.detail}
                     </div>
                   </div>
@@ -132,7 +132,7 @@ export function BudgetSection() {
                   <div className={`text-sm font-bold ${item.color}`}>
                     {item.amount} &euro;
                   </div>
-                  <div className="text-[9px] text-neutral-600">{item.iva}</div>
+                  <div className="text-[9px] text-neutral-400">{item.iva}</div>
                 </div>
               </div>
               {/* Company tag */}
@@ -170,10 +170,10 @@ export function BudgetSection() {
         >
           <div className="flex items-center justify-between">
             <div>
-              <div className="text-xs text-neutral-600 uppercase tracking-wider mb-1">
+              <div className="text-xs text-neutral-400 uppercase tracking-wider mb-1">
                 Total proxecto
               </div>
-              <div className="text-xs text-neutral-500">
+              <div className="text-xs text-neutral-300">
                 Abril 2026 - Marzo 2027
               </div>
             </div>
@@ -189,19 +189,19 @@ export function BudgetSection() {
               <div className="w-2 h-2 rounded-full bg-[#00AC81]" />
               <div>
                 <span className="text-[10px] text-[#00AC81]">espacio vivo</span>
-                <span className="text-[10px] text-neutral-500 ml-1">5.800 &euro;</span>
+                <span className="text-[10px] text-neutral-300 ml-1">5.800 &euro;</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-[#F761A1]" />
               <div>
                 <span className="text-[10px] text-[#F761A1]">Rocket</span>
-                <span className="text-[10px] text-neutral-500 ml-1">5.800 &euro;</span>
+                <span className="text-[10px] text-neutral-300 ml-1">5.800 &euro;</span>
               </div>
             </div>
           </div>
           <div className="mt-3 pt-3 border-t border-neutral-200/50 flex items-center justify-between">
-            <span className="text-[10px] text-neutral-500">
+            <span className="text-[10px] text-neutral-300">
               Material doado adicional
             </span>
             <span className="text-xs font-semibold text-[#F761A1]">

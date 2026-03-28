@@ -14,7 +14,7 @@ const activities = [
   {
     title: "Mercado Dixital",
     description:
-      "Formación en ferramentas dixitais accesibles para os 35 placeros. WhatsApp Business, RRSS, foto e vídeo, comunicación e inglés turístico.",
+      "Formación en ferramentas dixitais accesibles para os placeros da asociación. WhatsApp Business, RRSS, foto e vídeo, comunicación e inglés turístico.",
     icon: <GraduationCap className="w-5 h-5 text-[#00AC81]" />,
     badge: "espacio vivo",
     badgeColor: "text-[#00AC81] border-[#00AC81]/20 bg-[#00AC81]/5",
@@ -140,13 +140,13 @@ export function SolutionSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-[#00AC81] border border-[#00AC81]/20 bg-[#00AC81]/5 mb-4">
             A Solución
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
             5 actividades{" "}
             <span className="bg-gradient-to-r from-[#00AC81] via-[#7B5EA7] to-[#F761A1] bg-clip-text text-transparent">
               interconectadas
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-400 leading-relaxed">
             Un modelo de intervención articulado que cubre formación,
             dinamización, identidade, comunicación e sustentabilidade.
           </p>
@@ -156,12 +156,12 @@ export function SolutionSection() {
             <div className="flex items-center gap-2 glass-ev-light rounded-full px-3 py-1.5">
               <div className="w-2 h-2 rounded-full bg-[#00AC81]" />
               <span className="text-[10px] text-[#00AC81]">espacio vivo</span>
-              <span className="text-[9px] text-neutral-500">Act. 1-2</span>
+              <span className="text-[9px] text-neutral-300">Act. 1-2</span>
             </div>
             <div className="flex items-center gap-2 glass-rocket-light rounded-full px-3 py-1.5">
               <div className="w-2 h-2 rounded-full bg-[#F761A1]" />
               <span className="text-[10px] text-[#F761A1]">Rocket</span>
-              <span className="text-[9px] text-neutral-500">Act. 3-5</span>
+              <span className="text-[9px] text-neutral-300">Act. 3-5</span>
             </div>
           </div>
         </motion.div>

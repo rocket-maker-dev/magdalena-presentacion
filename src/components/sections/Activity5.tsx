@@ -29,17 +29,17 @@ export function Activity5Section() {
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
             <span className="bg-gradient-to-r from-[#8C1BAB] to-[#F761A1] bg-clip-text text-transparent">
               &ldquo;Bolsa da Magdalena&rdquo;
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-400 leading-relaxed">
             O compoñente estratéxico que pecha o círculo e garante a
             sustentabilidade económica da asociación.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Xuño 2026 + continua
             </span>
             <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
@@ -69,7 +69,7 @@ export function Activity5Section() {
                 Material doado por Rocket + espacio vivo
               </span>
             </div>
-            <div className="text-2xl font-bold text-[#2a2a3a] mt-1">
+            <div className="text-2xl font-bold text-white mt-1">
               Valor: 1.200 &euro;
             </div>
           </div>
@@ -113,10 +113,10 @@ export function Activity5Section() {
             >
               <item.icon className={`w-5 h-5 ${item.color} mt-0.5 shrink-0`} />
               <div>
-                <h4 className="text-sm font-semibold text-[#2a2a3a] mb-0.5">
+                <h4 className="text-sm font-semibold text-white mb-0.5">
                   {item.title}
                 </h4>
-                <p className="text-xs text-neutral-600">{item.description}</p>
+                <p className="text-xs text-neutral-400">{item.description}</p>
               </div>
             </motion.div>
           ))}
@@ -136,7 +136,7 @@ export function Activity5Section() {
             className="w-full h-40 object-cover opacity-60"
           />
           <div className="p-4 bg-white/80">
-            <p className="text-[10px] text-neutral-500 text-center">
+            <p className="text-[10px] text-neutral-300 text-center">
               Referencia de merchandising: bolsas térmicas personalizadas, útiles, duradeiras e ecolóxicas
             </p>
           </div>

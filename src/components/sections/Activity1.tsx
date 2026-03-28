@@ -88,18 +88,18 @@ export function Activity1Section() {
               <span className="text-[9px] text-[#00AC81]">espacio vivo</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
             Formación{" "}
             <span className="bg-gradient-to-r from-[#00AC81] to-[#7B5EA7] bg-clip-text text-transparent">
               &ldquo;Mercado Dixital&rdquo;
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
-            Programa formativo presencial para os 35 placeros. Sen tecnicismos,
+          <p className="text-sm text-neutral-400 leading-relaxed">
+            Programa formativo presencial para os placeros da asociación. Sen tecnicismos,
             con exemplos reais e resultado visible desde a primeira sesión.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-300">
               Abril - Setembro 2026
             </span>
             <span className="glass-ev-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
@@ -121,16 +121,16 @@ export function Activity1Section() {
             >
               <div className="flex items-start gap-4">
                 <div className="flex flex-col items-center gap-1">
-                  <span className="text-[10px] font-mono text-neutral-600">
+                  <span className="text-[10px] font-mono text-neutral-400">
                     {mod.number}
                   </span>
                   <mod.icon className={`w-5 h-5 ${mod.color}`} />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-[#2a2a3a] text-sm mb-1">
+                  <h3 className="font-semibold text-white text-sm mb-1">
                     {mod.title}
                   </h3>
-                  <p className="text-xs text-neutral-600 leading-relaxed">
+                  <p className="text-xs text-neutral-400 leading-relaxed">
                     {mod.description}
                   </p>
                 </div>
@@ -147,7 +147,7 @@ export function Activity1Section() {
           transition={{ delay: 0.6 }}
           className="mt-6 text-center"
         >
-          <p className="text-[11px] text-neutral-500 italic">
+          <p className="text-[11px] text-neutral-300 italic">
             Todos os materiais en lingua galega e con linguaxe inclusiva.
             Formación impartida por profesionais con experiencia en autónomos.
           </p>

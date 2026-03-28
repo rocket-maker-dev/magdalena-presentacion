@@ -56,14 +56,14 @@ export function ChallengeSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-red-400 border border-red-400/20 bg-red-400/5 mb-4">
             O Contexto
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
             O reto dos mercados
             <br />
             <span className="bg-gradient-to-r from-red-400 to-[#F761A1] bg-clip-text text-transparent">
               municipais
             </span>
           </h2>
-          <p className="text-sm text-neutral-600 leading-relaxed">
+          <p className="text-sm text-neutral-400 leading-relaxed">
             Os mercados municipais de Ferrol encóntranse nun momento de
             transformación. O valor da calidade, a proximidade e o contacto
             humano necesita novas ferramentas para sobrevivir.
@@ -86,10 +86,10 @@ export function ChallengeSection() {
                   <challenge.icon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#2a2a3a] text-sm mb-1">
+                  <h3 className="font-semibold text-white text-sm mb-1">
                     {challenge.title}
                   </h3>
-                  <p className="text-xs text-neutral-600 leading-relaxed">
+                  <p className="text-xs text-neutral-400 leading-relaxed">
                     {challenge.description}
                   </p>
                 </div>
@@ -107,13 +107,7 @@ export function ChallengeSection() {
           className="mt-10 text-center"
         >
           <div className="glass-light rounded-2xl p-6">
-            <div className="text-4xl font-bold bg-gradient-to-r from-[#00AC81] to-[#7B5EA7] bg-clip-text text-transparent mb-2">
-              35
-            </div>
-            <div className="text-sm text-neutral-500 font-medium mb-1">
-              familias dependen do mercado
-            </div>
-            <div className="text-xs text-neutral-500">
+            <div className="text-sm text-neutral-300 leading-relaxed">
               A maior asociación de vendedores da cidade merece unha resposta á
               altura
             </div>
