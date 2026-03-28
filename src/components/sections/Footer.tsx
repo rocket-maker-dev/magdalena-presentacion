@@ -23,26 +23,26 @@ export function FooterSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-[#0a0018] via-[#0a0018]/90 to-[#12082e]/60" />
 
       <div className="relative z-10 section-padding max-w-lg mx-auto">
-        {/* Logos — espacio vivo + Rocket */}
+        {/* Logos — espacio vivo + Rocket (stacked on mobile) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="flex items-center justify-center gap-6 mb-10"
+          className="flex flex-col items-center justify-center gap-4 mb-10 sm:flex-row sm:gap-6"
         >
           {/* espacio vivo */}
           <img
             src="/logo-ev-blanco.png"
             alt="espacio vivo"
-            className="h-14 w-auto object-contain"
+            className="h-12 w-auto object-contain sm:h-14"
           />
-          <div className="w-px h-12 bg-white/10" />
+          <div className="hidden sm:block w-px h-12 bg-white/10" />
           {/* Rocket */}
           <img
             src="/rocket-real-logo-white.svg"
             alt="Rocket"
-            className="h-14 w-auto object-contain"
+            className="h-10 w-auto object-contain sm:h-14"
           />
         </motion.div>
 
