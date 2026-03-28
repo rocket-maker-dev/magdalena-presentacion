@@ -204,3 +204,22 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(123, 94, 167, 0.6);
 }
+
+/* Light glass variants for light background sections */
+.glass-light {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.glass-ev-light {
+  background: rgba(0, 172, 129, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 172, 129, 0.2);
+}
+
+.glass-rocket-light {
+  background: rgba(247, 97, 161, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(247, 97, 161, 0.2);
+}

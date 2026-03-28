@@ -42,7 +42,7 @@ export function ChallengeSection() {
   return (
     <section id="reto" className="section-padding relative overflow-hidden">
       {/* Nebula gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#12082e] via-[#0e1c17] to-[#12082e]" />
+      <div className="absolute inset-0 bg-[#faf8f5]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Section header */}
@@ -56,14 +56,14 @@ export function ChallengeSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-red-400 border border-red-400/20 bg-red-400/5 mb-4">
             O Contexto
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
             O reto dos mercados
             <br />
             <span className="bg-gradient-to-r from-red-400 to-[#F761A1] bg-clip-text text-transparent">
               municipais
             </span>
           </h2>
-          <p className="text-sm text-neutral-400 leading-relaxed">
+          <p className="text-sm text-neutral-600 leading-relaxed">
             Os mercados municipais de Ferrol encóntranse nun momento de
             transformación. O valor da calidade, a proximidade e o contacto
             humano necesita novas ferramentas para sobrevivir.
@@ -79,17 +79,17 @@ export function ChallengeSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.15, duration: 0.5 }}
-              className={`relative rounded-2xl p-5 bg-gradient-to-r ${challenge.color} border border-white/5 backdrop-blur-sm`}
+              className={`relative rounded-2xl p-5 bg-gradient-to-r ${challenge.color} border border-neutral-200/50 backdrop-blur-sm`}
             >
               <div className="flex items-start gap-4">
                 <div className={`mt-0.5 ${challenge.iconColor}`}>
                   <challenge.icon className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-white text-sm mb-1">
+                  <h3 className="font-semibold text-[#2a2a3a] text-sm mb-1">
                     {challenge.title}
                   </h3>
-                  <p className="text-xs text-neutral-400 leading-relaxed">
+                  <p className="text-xs text-neutral-600 leading-relaxed">
                     {challenge.description}
                   </p>
                 </div>
@@ -106,11 +106,11 @@ export function ChallengeSection() {
           transition={{ delay: 0.6, duration: 0.5 }}
           className="mt-10 text-center"
         >
-          <div className="glass rounded-2xl p-6">
+          <div className="glass-light rounded-2xl p-6">
             <div className="text-4xl font-bold bg-gradient-to-r from-[#00AC81] to-[#7B5EA7] bg-clip-text text-transparent mb-2">
               35
             </div>
-            <div className="text-sm text-neutral-300 font-medium mb-1">
+            <div className="text-sm text-neutral-500 font-medium mb-1">
               familias dependen do mercado
             </div>
             <div className="text-xs text-neutral-500">

@@ -24,25 +24,25 @@ export function Activity5Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#F761A1]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-rocket rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-rocket-light rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#F761A1]" />
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
             <span className="bg-gradient-to-r from-[#8C1BAB] to-[#F761A1] bg-clip-text text-transparent">
               &ldquo;Bolsa da Magdalena&rdquo;
             </span>
           </h2>
-          <p className="text-sm text-neutral-400 leading-relaxed">
+          <p className="text-sm text-neutral-600 leading-relaxed">
             O compoñente estratéxico que pecha o círculo e garante a
             sustentabilidade económica da asociación.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
               Xuño 2026 + continua
             </span>
-            <span className="glass-rocket rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
+            <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
               Custo: 0,00 &euro;
             </span>
           </div>
@@ -69,7 +69,7 @@ export function Activity5Section() {
                 Material doado por Rocket + espacio vivo
               </span>
             </div>
-            <div className="text-2xl font-bold text-white mt-1">
+            <div className="text-2xl font-bold text-[#2a2a3a] mt-1">
               Valor: 1.200 &euro;
             </div>
           </div>
@@ -109,14 +109,14 @@ export function Activity5Section() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="flex items-start gap-4 p-4 rounded-xl bg-white/[0.02] border border-white/5"
+              className="flex items-start gap-4 p-4 rounded-xl bg-white/80 border border-neutral-200/50"
             >
               <item.icon className={`w-5 h-5 ${item.color} mt-0.5 shrink-0`} />
               <div>
-                <h4 className="text-sm font-semibold text-white mb-0.5">
+                <h4 className="text-sm font-semibold text-[#2a2a3a] mb-0.5">
                   {item.title}
                 </h4>
-                <p className="text-xs text-neutral-400">{item.description}</p>
+                <p className="text-xs text-neutral-600">{item.description}</p>
               </div>
             </motion.div>
           ))}
@@ -128,14 +128,14 @@ export function Activity5Section() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.5 }}
-          className="mt-8 rounded-2xl overflow-hidden border border-white/5"
+          className="mt-8 rounded-2xl overflow-hidden border border-neutral-200/50"
         >
           <img
             src="/ref-recimil-apron.png"
             alt="Referencia merchandising"
             className="w-full h-40 object-cover opacity-60"
           />
-          <div className="p-4 bg-white/[0.02]">
+          <div className="p-4 bg-white/80">
             <p className="text-[10px] text-neutral-500 text-center">
               Referencia de merchandising: bolsas térmicas personalizadas, útiles, duradeiras e ecolóxicas
             </p>

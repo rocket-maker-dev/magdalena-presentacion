@@ -65,7 +65,7 @@ const modules = [
 export function Activity1Section() {
   return (
     <section id="formacion" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0e1c17] via-[#12082e] to-[#0e1c17]" />
+      <div className="absolute inset-0 bg-[#faf8f5]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -83,26 +83,26 @@ export function Activity1Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#00AC81]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-ev rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-ev-light rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#00AC81]" />
               <span className="text-[9px] text-[#00AC81]">espacio vivo</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
             Formación{" "}
             <span className="bg-gradient-to-r from-[#00AC81] to-[#7B5EA7] bg-clip-text text-transparent">
               &ldquo;Mercado Dixital&rdquo;
             </span>
           </h2>
-          <p className="text-sm text-neutral-400 leading-relaxed">
+          <p className="text-sm text-neutral-600 leading-relaxed">
             Programa formativo presencial para os 35 placeros. Sen tecnicismos,
             con exemplos reais e resultado visible desde a primeira sesión.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
               Abril - Setembro 2026
             </span>
-            <span className="glass-ev rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
+            <span className="glass-ev-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#00AC81]">
               2.900,00 &euro;
             </span>
           </div>
@@ -127,10 +127,10 @@ export function Activity1Section() {
                   <mod.icon className={`w-5 h-5 ${mod.color}`} />
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-white text-sm mb-1">
+                  <h3 className="font-semibold text-[#2a2a3a] text-sm mb-1">
                     {mod.title}
                   </h3>
-                  <p className="text-xs text-neutral-400 leading-relaxed">
+                  <p className="text-xs text-neutral-600 leading-relaxed">
                     {mod.description}
                   </p>
                 </div>

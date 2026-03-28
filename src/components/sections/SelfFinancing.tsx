@@ -88,13 +88,13 @@ export function SelfFinancingSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-[#7B5EA7] border border-[#7B5EA7]/20 bg-[#7B5EA7]/5 mb-4">
             Modelo Innovador
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
             Autofinanciaci&oacute;n{" "}
             <span className="bg-gradient-to-r from-[#00AC81] to-[#7B5EA7] bg-clip-text text-transparent">
               paso a paso
             </span>
           </h2>
-          <p className="text-sm text-neutral-400 leading-relaxed max-w-md mx-auto">
+          <p className="text-sm text-neutral-600 leading-relaxed max-w-md mx-auto">
             Resolve o principal atallo das asociaci&oacute;ns de vendedores: a necesidade
             de fondos propios sen ter unha fonte de ingresos estable.
           </p>
@@ -124,11 +124,11 @@ export function SelfFinancingSection() {
                   <div className="flex-1">
                     <div className="flex items-center gap-2 mb-1">
                       <step.icon className={`w-4 h-4 ${step.color}`} />
-                      <h4 className="text-sm font-semibold text-white">
+                      <h4 className="text-sm font-semibold text-[#2a2a3a]">
                         {step.title}
                       </h4>
                     </div>
-                    <p className="text-xs text-neutral-400 leading-relaxed">
+                    <p className="text-xs text-neutral-600 leading-relaxed">
                       {step.description}
                     </p>
                   </div>
@@ -154,7 +154,7 @@ export function SelfFinancingSection() {
           <div className="text-3xl font-bold bg-gradient-to-r from-[#00AC81] via-[#7B5EA7] to-[#F761A1] bg-clip-text text-transparent mb-2">
             Rompe a dependencia
           </div>
-          <p className="text-xs text-neutral-400 leading-relaxed max-w-sm mx-auto">
+          <p className="text-xs text-neutral-600 leading-relaxed max-w-sm mx-auto">
             O modelo non require investimento inicial, beneficia os placeros e xera
             un obxecto que funciona como produto, ferramenta de m&aacute;rketing e
             embaixador do mercado.

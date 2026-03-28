@@ -25,7 +25,7 @@ const activities = [
           alt="Formación dixital"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-[#faf8f5]" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#00AC81] uppercase tracking-wider">
           Actividade 1
         </span>
@@ -47,7 +47,7 @@ const activities = [
           alt="Showcooking"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-[#faf8f5]" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#00AC81] uppercase tracking-wider">
           Actividade 2
         </span>
@@ -69,7 +69,7 @@ const activities = [
           alt="Mercado"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-[#faf8f5]" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#F761A1] uppercase tracking-wider">
           Actividade 3
         </span>
@@ -91,7 +91,7 @@ const activities = [
           alt="Redes sociais"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-[#faf8f5]" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#8C1BAB] uppercase tracking-wider">
           Actividade 4
         </span>
@@ -113,7 +113,7 @@ const activities = [
           alt="Bolsa da Magdalena"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-[#faf8f5]" />
         <span className="absolute bottom-2 left-3 text-[10px] font-semibold text-[#F761A1] uppercase tracking-wider">
           Actividade 5
         </span>
@@ -140,25 +140,25 @@ export function SolutionSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-[#00AC81] border border-[#00AC81]/20 bg-[#00AC81]/5 mb-4">
             A Solución
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
             5 actividades{" "}
             <span className="bg-gradient-to-r from-[#00AC81] via-[#7B5EA7] to-[#F761A1] bg-clip-text text-transparent">
               interconectadas
             </span>
           </h2>
-          <p className="text-sm text-neutral-400 leading-relaxed">
+          <p className="text-sm text-neutral-600 leading-relaxed">
             Un modelo de intervención articulado que cubre formación,
             dinamización, identidade, comunicación e sustentabilidade.
           </p>
 
           {/* Company distribution */}
           <div className="flex items-center justify-center gap-4 mt-6">
-            <div className="flex items-center gap-2 glass-ev rounded-full px-3 py-1.5">
+            <div className="flex items-center gap-2 glass-ev-light rounded-full px-3 py-1.5">
               <div className="w-2 h-2 rounded-full bg-[#00AC81]" />
               <span className="text-[10px] text-[#00AC81]">espacio vivo</span>
               <span className="text-[9px] text-neutral-500">Act. 1-2</span>
             </div>
-            <div className="flex items-center gap-2 glass-rocket rounded-full px-3 py-1.5">
+            <div className="flex items-center gap-2 glass-rocket-light rounded-full px-3 py-1.5">
               <div className="w-2 h-2 rounded-full bg-[#F761A1]" />
               <span className="text-[10px] text-[#F761A1]">Rocket</span>
               <span className="text-[9px] text-neutral-500">Act. 3-5</span>
@@ -181,7 +181,7 @@ export function SolutionSection() {
                 description={item.description}
                 header={item.header}
                 icon={item.icon}
-                className={`${item.className} !bg-[#12082e] !border-white/5 hover:!border-white/15 transition-all duration-300`}
+                className={`${item.className} !bg-[#12082e] !border-neutral-200/50 hover:!border-neutral-300 transition-all duration-300`}
               />
             ))}
           </BentoGrid>

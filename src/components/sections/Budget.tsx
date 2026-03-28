@@ -81,7 +81,7 @@ const budgetItems = [
 export function BudgetSection() {
   return (
     <section id="orzamento" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0e1c17] via-[#12082e] to-[#0a0018]" />
+      <div className="absolute inset-0 bg-[#faf8f5]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -95,7 +95,7 @@ export function BudgetSection() {
           <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest text-[#7B5EA7] border border-[#7B5EA7]/20 bg-[#7B5EA7]/5 mb-4">
             Orzamento
           </span>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-bold text-[#2a2a3a] mb-4">
             Resumo{" "}
             <span className="bg-gradient-to-r from-[#00AC81] via-[#7B5EA7] to-[#F761A1] bg-clip-text text-transparent">
               económico
@@ -112,7 +112,7 @@ export function BudgetSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.4 }}
-              className="rounded-2xl p-4 bg-white/[0.02] border border-white/5 hover:border-white/10 transition-all duration-300"
+              className="rounded-2xl p-4 bg-white/80 border border-neutral-200/50 hover:border-neutral-300/50 transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-2">
                 <div className="flex items-center gap-3">
@@ -120,7 +120,7 @@ export function BudgetSection() {
                     <item.icon className={`w-4 h-4 ${item.color}`} />
                   </div>
                   <div>
-                    <div className="text-xs font-semibold text-white">
+                    <div className="text-xs font-semibold text-[#2a2a3a]">
                       {item.name}
                     </div>
                     <div className="text-[10px] text-neutral-500">
@@ -170,7 +170,7 @@ export function BudgetSection() {
         >
           <div className="flex items-center justify-between">
             <div>
-              <div className="text-xs text-neutral-400 uppercase tracking-wider mb-1">
+              <div className="text-xs text-neutral-600 uppercase tracking-wider mb-1">
                 Total proxecto
               </div>
               <div className="text-xs text-neutral-500">
@@ -184,7 +184,7 @@ export function BudgetSection() {
             </div>
           </div>
           {/* Company breakdown */}
-          <div className="mt-4 pt-3 border-t border-white/5 grid grid-cols-2 gap-3">
+          <div className="mt-4 pt-3 border-t border-neutral-200/50 grid grid-cols-2 gap-3">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-[#00AC81]" />
               <div>
@@ -200,7 +200,7 @@ export function BudgetSection() {
               </div>
             </div>
           </div>
-          <div className="mt-3 pt-3 border-t border-white/5 flex items-center justify-between">
+          <div className="mt-3 pt-3 border-t border-neutral-200/50 flex items-center justify-between">
             <span className="text-[10px] text-neutral-500">
               Material doado adicional
             </span>

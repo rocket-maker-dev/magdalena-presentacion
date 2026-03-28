@@ -59,7 +59,7 @@ const months = [
 export function Activity4Section() {
   return (
     <section id="rrss" className="section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0a0018] via-[#12082e] to-[#0a0018]" />
+      <div className="absolute inset-0 bg-[#faf8f5]" />
 
       <div className="relative z-10 max-w-lg mx-auto">
         {/* Header */}
@@ -77,26 +77,26 @@ export function Activity4Section() {
             <span className="text-[10px] uppercase tracking-widest text-[#F761A1]">
               Actividade
             </span>
-            <div className="ml-auto flex items-center gap-1.5 glass-rocket rounded-full px-2.5 py-1">
+            <div className="ml-auto flex items-center gap-1.5 glass-rocket-light rounded-full px-2.5 py-1">
               <div className="w-1.5 h-1.5 rounded-full bg-[#F761A1]" />
               <span className="text-[9px] text-[#F761A1]">Rocket</span>
             </div>
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white mb-3">
+          <h2 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-[#2a2a3a] mb-3">
             RRSS + Blog{" "}
             <span className="bg-gradient-to-r from-[#8C1BAB] to-[#F761A1] bg-clip-text text-transparent">
               12 meses
             </span>
           </h2>
-          <p className="text-sm text-neutral-400 leading-relaxed">
+          <p className="text-sm text-neutral-600 leading-relaxed">
             Presenza dixital sostida ao longo de todo o ano. Os mercados non
             pechan en agosto nin en xaneiro, e a súa comunicación tampouco.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <span className="glass rounded-lg px-3 py-1.5 text-xs text-neutral-300">
+            <span className="glass-light rounded-lg px-3 py-1.5 text-xs text-neutral-500">
               Abril 2026 - Marzo 2027
             </span>
-            <span className="glass-rocket rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
+            <span className="glass-rocket-light rounded-lg px-3 py-1.5 text-xs font-semibold text-[#F761A1]">
               2.900,00 &euro; <span className="text-neutral-500">(IVA incl.)</span>
             </span>
           </div>
@@ -149,10 +149,10 @@ export function Activity4Section() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.08, duration: 0.4 }}
-              className="rounded-xl p-4 bg-white/[0.02] border border-white/5 hover:border-[#F761A1]/15 transition-all duration-300"
+              className="rounded-xl p-4 bg-white/80 border border-neutral-200/50 hover:border-[#F761A1]/15 transition-all duration-300"
             >
               <item.icon className={`w-5 h-5 ${item.color} mb-2`} />
-              <div className="text-xs font-semibold text-white">{item.label}</div>
+              <div className="text-xs font-semibold text-[#2a2a3a]">{item.label}</div>
               <div className="text-[10px] text-neutral-500">{item.sublabel}</div>
             </motion.div>
           ))}
@@ -166,13 +166,13 @@ export function Activity4Section() {
           transition={{ delay: 0.5 }}
           className="mt-8 flex items-center justify-center gap-4"
         >
-          <div className="flex items-center gap-2 glass-rocket rounded-full px-4 py-2">
+          <div className="flex items-center gap-2 glass-rocket-light rounded-full px-4 py-2">
             <Hash className="w-4 h-4 text-[#8C1BAB]" />
-            <span className="text-xs text-neutral-400">Facebook</span>
+            <span className="text-xs text-neutral-600">Facebook</span>
           </div>
-          <div className="flex items-center gap-2 glass-rocket rounded-full px-4 py-2">
+          <div className="flex items-center gap-2 glass-rocket-light rounded-full px-4 py-2">
             <AtSign className="w-4 h-4 text-[#F761A1]" />
-            <span className="text-xs text-neutral-400">Instagram</span>
+            <span className="text-xs text-neutral-600">Instagram</span>
           </div>
         </motion.div>
 
@@ -184,7 +184,7 @@ export function Activity4Section() {
           transition={{ delay: 0.6 }}
           className="mt-6 rounded-2xl p-4 border border-[#8C1BAB]/15 bg-[#8C1BAB]/5"
         >
-          <p className="text-xs text-neutral-400 leading-relaxed text-center">
+          <p className="text-xs text-neutral-600 leading-relaxed text-center">
             <span className="text-[#F761A1] font-semibold">Modelo colaborativo:</span>{" "}
             Os placeros envían fotos e vídeos seguindo pautas sinxelas da
             formación. Periodicamente, gravacións profesionais no mercado
